@@ -1,5 +1,4 @@
 import { ListVacancy } from './style'
-import styles from './Vaga.module.css'
 
 type Props = {
   titulo: string

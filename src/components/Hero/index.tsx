@@ -1,5 +1,4 @@
 import { Container } from '../../style'
-import styles from './Hero.module.css'
 import { HeroForm } from './style'
 
 const Hero = () => (

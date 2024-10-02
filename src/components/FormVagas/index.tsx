@@ -1,6 +1,5 @@
 import { FormEvent, useState } from 'react'
 
-import styles from './FormVagas.module.css'
 import { Button, Inpunt, FormData } from './style'
 
 type Props = {

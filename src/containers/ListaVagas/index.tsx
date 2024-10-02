@@ -3,7 +3,6 @@ import FormVagas from '../../components/FormVagas'
 
 import Vaga from '../../components/Vaga'
 
-import styles from './ListaVagas.module.css'
 import { FilterVacancy } from '../styles'
 
 type Vaga = {

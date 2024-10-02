@@ -1,4 +1,3 @@
-import styles from './Cabecalho.module.css'
 import { CabecalhoHeader } from './styles'
 
 const Cabecalho = () => (
