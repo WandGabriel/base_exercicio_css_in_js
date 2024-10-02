@@ -3,15 +3,17 @@ import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
 
 import './global.css'
+import ResetGlobal, { Container } from './style'
 
 function App() {
   return (
     <>
+      <ResetGlobal />
       <Header />
       <Hero />
-      <div className="container">
+      <Container>
         <ListaVagas />
-      </div>
+      </Container>
     </>
   )
 }
