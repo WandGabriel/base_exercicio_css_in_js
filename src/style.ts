@@ -1,6 +1,12 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
 const ResetGlobal = createGlobalStyle`
+
+  :root {
+    --corPrimaria: #a7727d;
+    --corSecundaria: #f9f5e7;
+  }
+
   * {
   margin: 0;
   padding: 0;

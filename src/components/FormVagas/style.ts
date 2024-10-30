@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const FormData = styled.form`
   display: grid;
   grid-template-columns: 1fr auto;
-  background-color: #f9f5e7;
+  background-color: var(--corSecundaria);
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
@@ -14,12 +14,12 @@ export const FormData = styled.form`
 `
 
 export const Button = styled.button`
-  background-color: #a7727d;
-  border: 1px solid #a7727d;
+  background-color: var(--corPrimaria);
+  border: 1px solid var(--corPrimaria);
   height: 40px;
   padding: 0 16px;
   font-size: 18px;
-  color: #f9f5e7;
+  color: var(--corSecundaria);
   margin-left: 8px;
   cursor: pointer;
 
@@ -30,5 +30,5 @@ export const Button = styled.button`
 
 export const Inpunt = styled.input`
   padding: 0 16px;
-  outline-color: #a7727d;
+  outline-color: var(--corPrimaria);
 `

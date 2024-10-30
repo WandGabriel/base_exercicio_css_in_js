@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const CabecalhoHeader = styled.header`
-  background-color: #f9f5e7;
-  color: #a7727d;
+  background-color: var(--corSecundaria);
+  color: var(--corPrimaria);
   text-align: center;
   padding: 24px 0;
 `

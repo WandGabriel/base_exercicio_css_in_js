@@ -1,22 +1,22 @@
 import styled from 'styled-components'
 
 export const ListVacancy = styled.li`
-  border: 1px solid #a7727d;
-  background-color: #f9f5e7;
-  color: #a7727d;
+  border: 1px solid var(--corPrimaria);
+  background-color: var(--corSecundaria);
+  color: var(--corPrimaria);
   padding: 16px;
   transition: all ease 0.3s;
   border-radius: 8px;
 
   :hover {
-    background-color: #a7727d;
-    color: #f9f5e7;
+    background-color: var(--corPrimaria);
+    color: var(--corSecundaria);
   }
 
   :hover a {
-    border-color: #a7727d;
-    background-color: #f9f5e7;
-    color: #a7727d;
+    border-color: var(--corPrimaria);
+    background-color: var(--corSecundaria);
+    color: var(--corPrimaria);
   }
 
   h3 {
@@ -25,9 +25,9 @@ export const ListVacancy = styled.li`
   }
 
   a {
-    border-color: #f9f5e7;
-    background-color: #a7727d;
-    color: #f9f5e7;
+    border-color: var(--corSecundaria);
+    background-color: var(--corPrimaria);
+    color: var(--corSecundaria);
     display: inline-block;
     padding: 8px 16px;
     text-decoration: none;
